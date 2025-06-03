@@ -1,0 +1,43 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex; /* Optional: For centering content */
+    flex-direction: column; /* Optional: For centering content */
+    align-items: center; /* Optional: For centering content */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+div { /* Styles the div holding sensor readings */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    min-width: 200px; /* Ensures it has some width */
+}
+
+p {
+    margin: 8px 0;
+}
+
+button#ledButton { /* More specific selector for the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button#ledButton:hover {
+    background-color: #218838; /* Darker green */
+}
